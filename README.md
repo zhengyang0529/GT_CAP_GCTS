@@ -33,10 +33,10 @@ pip install -r requirements/base.txt
 prospector
 ```
 
-### Change to development branch
+### Checkout a branch into a local repository
 ```bash
-# git checkout development
+git checkout development
 
-# (to check which branch you in) git branch
+(to check which branch you in) git branch
 
 ```
