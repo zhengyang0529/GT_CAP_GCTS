@@ -32,3 +32,11 @@ pip install -r requirements/base.txt
 ```bash
 prospector
 ```
+
+### Change to development branch
+```bash
+# git checkout development
+
+# (to check which branch you in) git branch
+
+```
