@@ -23,4 +23,6 @@ pip install -r requirements/base.txt
 ```
 
 ### Running static code analyser
+```bash
 prospector
+```
