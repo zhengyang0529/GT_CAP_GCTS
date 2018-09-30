@@ -3,6 +3,8 @@
 ### Cloning the Repository:
 ```bash
 git clone git@github.com:zhengyang0529/GT_CAP_GCTS.git
+
+(for windows) https://github.com/zhengyang0529/GT_CAP_GCTS.git
 ```
 
 ### Setting up a Virtualenv
