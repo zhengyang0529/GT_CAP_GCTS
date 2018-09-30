@@ -1,0 +1,17 @@
+Django==1.11.9
+
+attrs>=17.4.0
+pytest==3.6.3
+
+pytest-django==3.1.2
+pytest-sugar==0.9.1
+factory-boy==2.10.0
+Faker==0.8.10
+
+# Static analysis tools
+prospector==0.12.7  # like pylint, but more sane defaults.
+pylint==1.8.4
+pylint-django==0.10.1
+astroid==1.6.3
+pytest-cov==2.5.1
+django-coverage-plugin==1.5.0
