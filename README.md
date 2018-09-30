@@ -32,10 +32,23 @@ pip install -r requirements/base.txt
 ```bash
 prospector
 ```
-### Checkout a branch into a local repository
+### Useful git command line
 ```bash
-git checkout development
+# Checkout a branch
+git checkout <branch-name>
 
-(to check which branch you in) git branch
+# Pull the latest change
+git pull
 
-```
+# Update list of change
+git fetch
+
+# Check status
+git status
+
+# Push changes
+git push
+
+# Check current branch
+git branch
+
