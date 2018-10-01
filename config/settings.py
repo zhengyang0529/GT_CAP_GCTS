@@ -54,7 +54,9 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'C:/Users/CYJ/GT_CAP_GCTS/templates/'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
