@@ -1,0 +1,14 @@
+body
+{
+    background: url('https://scontent.fkul13-1.fna.fbcdn.net/v/t1.0-9/32959162_1922170017834197_3688626451923337216_o.jpg?_nc_cat=106&oh=cf50f68d49fa5cfecc7a85b1be3b4bc4&oe=5C5E4B49') fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container
+{
+  position : relative;
+  top: 250px;
+
+}
