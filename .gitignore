@@ -8,3 +8,13 @@ env.bak/
 venv/bak/
 
 .DS_Store
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temp entry, whilst waiting for mssql server to be setup
+db.sqlite3
+db.sqlite3.*
