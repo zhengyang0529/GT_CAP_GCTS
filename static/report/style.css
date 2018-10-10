@@ -16,7 +16,13 @@
   font-size:18px;
 }
 
-.row{
-  position: relative;
-  top: 5000px;
+.box{
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin:250px auto;
+}
+
+body{
+     background-color:#DCDCDC;
 }
