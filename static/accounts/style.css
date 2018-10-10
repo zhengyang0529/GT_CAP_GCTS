@@ -1,7 +1,7 @@
 {% load static %}
 body
 {
-    background: url("/static/images/login_page_background.jpg") fixed;
+    background: url("/static/images/eCell Login Page-01.jpg") fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
