@@ -9,7 +9,8 @@ body
 
 .container
 {
-  position : relative;
+  position :fixed;
+  right:20%;
   top: 250px;
 
 }
