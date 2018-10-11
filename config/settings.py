@@ -53,11 +53,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'config.urls'
 
+PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            'C:/Users/CYJ/GT_CAP_GCTS/templates/'
+            BASE_DIR + '/templates/',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -125,7 +127,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    'C:/Users/CYJ/GT_CAP_GCTS/static/',
+    BASE_DIR + '/static/',
 ]
 
 # LOGIN_REDIRECT_URL ='/admin'
