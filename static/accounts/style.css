@@ -10,7 +10,7 @@ body
 .container
 {
   position :fixed;
-  right:20%;
+  left:70%;
   top: 250px;
 
 }
