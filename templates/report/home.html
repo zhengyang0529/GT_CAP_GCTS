@@ -18,12 +18,19 @@
           <div class="modal-body">
             <div class="form-group">
               <h4> File Input </h4>
-              <input type="file" class="form-control-file" id="FileUpload" aria-describedby="fileHelp">
+      {% block content %}
+        <form method="post" enctype="multipart/form-data">
+          {% csrf_token %}
+          {{ form.report }}
               <small id="fileUploadHelp" class="form-text text-muted">Please Upload Excel file (.xlsx)</small>
+              <p><b>Description: {{ form.description }}</b></p> 
             </div>
             <div class="modal-footer">
             <button type="button" class="btn" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             <button type="submit" class="btn btn-success"><i class="fa fa-plus"></i> Upload</button>
+        </form>
+
+      {% endblock %}
           </div>
           </div>
         </div>

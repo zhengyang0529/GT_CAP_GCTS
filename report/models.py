@@ -9,6 +9,11 @@ GENDER_CHOICES = [
 ]
 
 class Cell_Report(models.Model):
+    description = models.CharField(
+        verbose_name=_("Description"),
+        max_length=255, 
+        blank=False,
+    )
     report = models.FileField(
         verbose_name=_("Report"),
         upload_to='document/uploaded_file/',

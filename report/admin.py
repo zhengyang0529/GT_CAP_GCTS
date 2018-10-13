@@ -6,6 +6,7 @@ from .models import Cell_Report, Member
 class CellReportAdmin(admin.ModelAdmin):
     list_display = (
         'report',
+        'description',
         'created_dt',
         'created_by',
         'updated_dt',

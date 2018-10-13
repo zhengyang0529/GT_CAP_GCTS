@@ -1,5 +1,16 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, redirect
 
-# Create your views here.
+from .forms import CellReportForm
+
+
 def home(request):
-    return render(request, 'report/home.html')
+    if request.method == 'POST':
+        form = CellReportForm(request.POST, request.FILES or None)
+        if form.is_valid():
+            form.save()
+            # return redirect('home')
+    else:
+        form = CellReportForm()
+    return render(request, 'report/home.html', {
+        'form': form
+    })
